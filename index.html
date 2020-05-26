@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Jasmine Testing</title>
+        <!-- LOAD JASMINE FRAMEWORK -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"
             integrity="sha256-PePX8Jc4TIxzzVz0Qe4NsH3OUU8+Y49DBWvYgggNqkY=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"
@@ -10,6 +11,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css"
             integrity="sha256-YzqdEMEXu1sH1t2Y9tk3XhKhxy1xMWvcA1koZx43k+8=" crossorigin="anonymous" />
 
-        <title>Jasmine Testing</title>
+        <!-- ORDER OF LOADING IS IMPORTANT - BOTH ABOVE AND BELOW -->
+        <!-- LOAD SCRIPTS -->
+        <script type="text/javascript" src="scripts/calc.js"></script>
+
+        <!-- LOAD TESTS -->
+        <script type="text/javascript" src="spec/calcSpec.js"></script>
+
     </head>
 </html>
