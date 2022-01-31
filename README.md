@@ -1,1 +1,1 @@
-# Jasmine Testing Demo Exercise
+# Jasmine Testing Demo Exercises
